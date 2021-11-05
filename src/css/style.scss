@@ -1,0 +1,47 @@
+body{
+    min-height: 100vh;
+    background-color: #1F374B;
+    overflow-x: hidden;
+    .house{
+        position: relative;
+        margin-right: 1.75rem;
+        &::after{
+            margin-left: 0.75rem;
+            position: absolute;
+            content: '';
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 1rem;
+            height: 1rem;
+            border-radius: 50%;
+        }
+        &.gryffindor{
+            &::after{
+                background-color: rgb(255, 0, 0);
+            }
+        }
+        &.slytherin{
+            &::after{
+                background-color: rgb(90, 197, 90);
+            }
+        }
+        &.hufflepuff{
+            &::after{
+                background-color: rgb(255, 255, 0);
+            }
+        }
+        &.ravenclaw{
+            &::after{
+                background-color: blue;
+            }
+        }
+        &.unknownHouse{
+            &::after{
+                background-color: rgb(149, 156, 160);
+            }
+        }
+
+        
+    }
+}
