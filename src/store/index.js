@@ -12,7 +12,7 @@ export default createStore({
   },
   actions: {
     getCharactersAction({commit}){
-      axios('http://hp-api.herokuapp.com/api/characters').then(res => {
+      axios('https://hp-api.onrender.com/api/characters').then(res => {
         commit('getCharacters',res.data)
       })
     }
