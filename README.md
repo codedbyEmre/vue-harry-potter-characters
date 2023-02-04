@@ -1,6 +1,6 @@
 # vue-harry-potter-app
 
-A Harry Potter app that searches and filters characters by their properties.It was created by using Vue3,Vuex,Vue Router,Bootstrap5 and Scss.
+A Harry Potter app that searches and filters characters by their properties.It was created by using Vue,Vuex,Vue Router,Bootstrap5 and Scss.
 
 The API which was used on this project is <a href="https://hp-api.herokuapp.com/" target="_blank">here</a>
 
