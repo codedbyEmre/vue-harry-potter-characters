@@ -1,5 +1,14 @@
 # vue-harry-potter-app
 
+## Stacks
+```
+Vue 3
+Options Api
+Vue Router 4
+Vuex 4
+Bootstrap 5
+```
+
 A Harry Potter app that searches and filters characters by their properties.It was created by using Vue,Vuex,Vue Router,Bootstrap5 and Scss.
 
 The API which was used on this project is <a href="https://hp-api.onrender.com/" target="_blank">here</a>
